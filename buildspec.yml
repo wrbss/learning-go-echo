@@ -18,7 +18,8 @@ phases:
       - mkdir -p ${GOPATH}/${SRC_DIR} && cd ${GOPATH}/${SRC_DIR}
       - mv ${CODEBUILD_SRC_DIR}/* ${CODEBUILD_SRC_DIR}/.??* .
       - ls ${GOPATH}/src
-      - ls ${GOPATH}/src/wrbss
+      - ls ${GOPATH}/src/github.com
+      - ls ${GOPATH}/src/github.com/wrbss
       - ls ${SRC_DIR}
       - dep ensure -v
   build:
