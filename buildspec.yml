@@ -20,7 +20,7 @@ phases:
       - ls ${GOPATH}/src
       - ls ${GOPATH}/src/github.com
       - ls ${GOPATH}/src/github.com/wrbss
-      - ls ${SRC_DIR}
+      - ls ${GOPATH}/${SRC_DIR}
       - dep ensure -v
   build:
     commands:
