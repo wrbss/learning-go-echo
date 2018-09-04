@@ -25,9 +25,9 @@ phases:
       - dep ensure
   build:
     commands:
-      - GOOS=linux GOARCH=amd64 go build -o build/bin/application app/server.go
+      - GOOS=linux GOARCH=amd64 go build -o bin/application app/server.go
 
 artifacts:
   files:
-    - build/bin/*
+    - bin/application
   base-directory: ${GOPATH}/${SRC_DIR}
