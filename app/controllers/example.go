@@ -14,5 +14,5 @@ func NewExample() (e *Example) {
 }
 
 func (e Example) GetExample(c echo.Context) error {
-	return c.JSON(http.StatusOK, "ok2")
+	return c.JSON(http.StatusOK, "ok3")
 }
