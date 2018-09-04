@@ -29,5 +29,5 @@ phases:
 
 artifacts:
   files:
-    - build/*
+    - build/bin/*
   base-directory: ${GOPATH}/${SRC_DIR}
